@@ -106,6 +106,12 @@ Uma vulnerabilidade permitia que um usuário comum atribuísse permissões de ad
 ### Exemplo de Broken Access Control "no mundo real" -- United States Postal Service (USPS)
 Cerca de sessenta milhões de contas foram expostas pois simplesmente qualquer usuário com uma conta ativa no sistema deles poderia verificar **todos** os dados dos outros usuários registrados, incluindo endereços, e-mails, nomes, identificações e números de telefone. Essa falha se encaixa como Broken Access Control pois não exigia técnica ou exploração de alguma vulnerabilidade em si; isto é, não existia intenção da exposição de dado algum, mas a arquitetura do sistema não foi bem implementada e resultou nessa espécie de "vulnerabilidade".
 
+### Exploit 1: Music Gallery Site v1.0 - Broken Access Control
+Link de referência: https://www.exploit-db.com/exploits/51289
+
+### Exploit 2: Auto Dealer Management System 1.0 - Broken Access Control Exploit
+Link de referência: https://www.exploit-db.com/exploits/51281
+
 ### Exemplo de código vulnerável - API em .NET
 ```csharp
 // Abaixo, um endpoint para a deleção de um usuário.
