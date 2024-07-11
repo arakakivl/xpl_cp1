@@ -116,7 +116,7 @@ Link de referência: https://www.exploit-db.com/exploits/51281
 ```csharp
 // Abaixo, um endpoint para a deleção de um usuário.
 // Não há nenhum atributo que verifique o usuário que está requisitando essa ação, ou mesmo se ele está autenticado.
-// Uma maneira de se contornar isso é usando algum atributo de autenticação, como [HttpAuthorize], por exemplo.
+// Uma maneira de se contornar isso é usando algum atributo de autenticação, como [Authorize], por exemplo.
 [HttpDelete("{id}")]
 public async Task DeleteUser([FromRoute] Guid userId)
 {
